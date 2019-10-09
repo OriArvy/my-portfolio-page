@@ -9,6 +9,15 @@ h1 {
   font-size: 56px;
 }
 
+h2 {
+  color: white;
+  font-size: 48px;
+}
+
+h3 {
+  color: white;
+  font-size: 48px;
+}
 .s1 {
   background-color: white;
 }
@@ -22,8 +31,9 @@ h1 {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, -20%)
+  transform: translate(-50%, -20%);
 }
+
 
 .welcome {
   position: absolute;
@@ -40,6 +50,7 @@ h1 {
 }
 
 .pointing-down-emote {
+  font-size: 56px;
   position: absolute;
   top: 80%;
   left: 50%;
@@ -96,6 +107,26 @@ h1 {
   font-size: 32px;
 }
 
+.text-position {
+  font-size: 32px;
+  width: 600px;
+  text-align: center;
+}
+
+.headphones, .profile-icon, .rocket-icon, .about-me-icon, .video-games-icon, .email, .linkedin {
+  height: 55px;
+  width: 55px;
+}
+
+.icons-provided {
+  position: absolute;
+  top: 90%;
+  left: 80%;
+}
+
+.fp-tableCell {
+padding: 0 300px;
+}
 .s3 p {
   position: absolute;
   top: 50%;
@@ -103,8 +134,8 @@ h1 {
   transform: translate(-30%, -50%);
   font-size: 32px;
 }
-
-.s4 p {
+ /*/ s5 p*/
+.s4 p, .s7 p {
   position: absolute;
   top: 50%;
   left: 40%;
@@ -194,3 +225,5 @@ a {
 .spotify-button:active {
   background-color: #7AC74F;
 }
+
+
