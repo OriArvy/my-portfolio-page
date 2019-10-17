@@ -94,7 +94,7 @@ h3 {
 
 .about-me {
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -10%)
 }
@@ -109,7 +109,10 @@ h3 {
 
 .text-position {
   font-size: 32px;
-  width: 600px;
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  transform: translate(-10%, -20%);
   text-align: center;
 }
 
@@ -124,9 +127,6 @@ h3 {
   left: 80%;
 }
 
-.fp-tableCell {
-padding: 0 300px;
-}
 .s3 p {
   position: absolute;
   top: 50%;
@@ -135,7 +135,7 @@ padding: 0 300px;
   font-size: 32px;
 }
  /*/ s5 p*/
-.s4 p, .s7 p {
+.s7 p {
   position: absolute;
   top: 50%;
   left: 40%;
@@ -143,11 +143,19 @@ padding: 0 300px;
   font-size: 32px;
 }
 
+.s4 p {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-10%, -50%);
+  font-size: 32px;
+}
+
 .repaythedelay {
   position: absolute;
   top: 45%;
   left: 25%;
-  transform: translate(-25%, -45%);
+  transform: translate(-15%, -45%);
   font-size: 24px;
   width: 500px;
 }
@@ -157,7 +165,7 @@ padding: 0 300px;
   position: absolute;
   top: 45%;
   left: 75%;
-  transform: translate(-75%, -45%);
+  transform: translate(-65%, -45%);
   font-size: 24px;
 }
 
@@ -175,9 +183,9 @@ a {
 
 .other-projects {
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 50%;
-  transform: translate(-50%, -10%);
+  transform: translate(-50%, -20%);
 }
 
 .project-takeaways {
@@ -190,7 +198,7 @@ a {
 
 .youtube-button {
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 40%;
   transform: translate(-40%, -70%);
   font-size: 24px;
@@ -209,8 +217,8 @@ a {
 }
 .spotify-button {
   position: absolute;
-  top: 70%;
-  left: 60%;
+  top: 75%;
+  left: 50%;
   transform: translate(-60%, -70%);
   font-size: 24px;
   background-color: #30D760;
