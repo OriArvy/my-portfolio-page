@@ -206,7 +206,7 @@ a {
 .youtube-button {
   position: absolute;
   top: 75%;
-  left: 40%;
+  left: 42%;
   transform: translate(-40%, -70%);
   font-size: 24px;
   color: white;
@@ -225,7 +225,7 @@ a {
 .spotify-button {
   position: absolute;
   top: 75%;
-  left: 50%;
+  left: 53%;
   transform: translate(-60%, -70%);
   font-size: 24px;
   background-color: #30D760;
