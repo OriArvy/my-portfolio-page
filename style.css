@@ -4,6 +4,13 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
 }
 
+.greeting, .about-me, .other-projects, .welcome, .start-exploring {
+  font-family: 'Indie Flower', cursive;
+}
+
+p, .text-position {
+  font-family: 'Roboto', cursive;
+}
 h1 {
   color: white;
   font-size: 56px;
